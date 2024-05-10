@@ -1,0 +1,55 @@
+header{
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+.roseannlogo{
+    width: 300px;
+}
+.navigaatio ul{
+    background-color: rgb(255, 255, 255);
+    list-style-type:none;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    margin-bottom: 10px;
+}
+.navigaatio a{
+    color: #013399;
+    text-decoration: none;
+    display: block;
+    font-size: 25px;
+    padding-inline: 15px;
+    border-radius: 10px;
+    border: solid white;
+}
+.navigaatio a.koti{
+    color:#000066;
+}
+.navigaatio a:hover{
+    color: #000066;
+    border: solid #000066;
+}
+hr{
+    height: 15px;
+    background-color: #000066;
+    border-width: 0px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+@media (max-width: 500px) {
+    .roseannlogo{
+        width: 150px;
+    }
+    .navigaatio ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 0em;
+    }
+    .navigaatio a{
+        font-size: 15px;
+    }
+}

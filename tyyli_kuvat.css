@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lexend", sans-serif;
+}
+.sisalto_kaikki{
+    background-color: #013399;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#paaotsikko{
+    color: white;
+    font-size: 45px;
+    padding: 40px;
+}
+.sisalto_kuvat{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sisalto_kuvat img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    padding: 10px;
+}
+.footer{
+    margin-top: 0px;
+    height: 20px;
+}
+@media (max-width: 500px) {
+    .teksti{
+        padding:4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .teksti div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #teksti2 div{
+        padding: 0;
+    }
+}

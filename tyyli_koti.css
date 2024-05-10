@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lexend", sans-serif;
+}
+.taustakuva{
+    height: 76svh;
+    background-image: url(roseanntaustakuva1.jpeg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: cover;
+}
+.sisalto_kaikki{
+    background-color: #013399;
+}
+#paaotsikko{
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    padding: 40px;
+}
+.sisalto_teksti{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tekstilaatikot{
+    display: flex;
+    flex-direction: column;
+    max-width: 1200px;
+}
+.teksti{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: white;
+    border: 2px solid #000066;
+    margin: 1px;
+    border-radius: 10px;
+    padding: 35px;
+}
+.teksti h2{
+    padding-bottom: 10px;
+}
+#teksti2 div{
+    padding-left: 35px;
+}
+.sirenapiirustus{
+    max-height: 300px;
+}
+.footer{
+    margin-top: 0px;
+    height: 20px;
+}
+@media (max-width: 500px) {
+    .teksti{
+        padding:4px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .teksti div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #teksti2 div{
+        padding: 0;
+    }
+}
